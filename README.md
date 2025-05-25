@@ -15,13 +15,26 @@ A simple and efficient To-Do List application built with Flask. This app provide
 
 - Python
 - Flask
-- SQLite (or your choice of database)
 - Flask-CORS
 
 ## 📁 Project Structure
 todo-flask-api/
-├──
+├──templetes
 ├── app.py
 ├── requirements.txt
 └── README.md
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/todo-flask-api.git
+cd todo-flask-api
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+
+The API will be available at: http://127.0.0.1:5000/
 
